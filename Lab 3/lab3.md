@@ -14,7 +14,7 @@ These 2 points are pretty related so going over them together.  So 2+ years in e
 
 Kind of vague here but essentially just need to show that you understand a modern programming language, so nothing older like C even though it's still used in things like the Linux Kernel still.
 
-<img src="amongus1.png" alt="Programming Languages" width="200" height="100" style="float: left; margin-right: 10px;" />
+<img src="amongus1.png" alt="Programming Languages" style="float: left; margin-right: 10px;" />
 
 A lot of people like to joke that HTML/Java aren't real programming languages but thankfully that's not really applicable here since they have a separate requirement for those in qualifications, so really it's them trying to find out what OTHER languages they want you to know. So far I'm probably the most proficient in Java from all the classes that use it in Brooklyn College, although I have been teaching myself Python on the side whenever time allows.  So really it's again about trying to prove proficiency.  I could do this by linking past projects I've done and have hosted on a repository like GitHub, as well as showing my ability to understand others code by contributing to other projects hosted on GitHub using Pull Requests.  Some combination of the 2 over time should be sufficient in showing proficiency.
 
