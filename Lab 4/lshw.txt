@@ -1,0 +1,37 @@
+H/W path      Device      Class          Description
+====================================================
+                          system         Computer
+/0                        bus            Motherboard
+/0/0                      memory         16GiB System memory
+/0/1                      processor      Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+/0/100                    bridge         Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+/0/100/1                  bridge         Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)
+/0/100/1/0                display        Cape Verde PRO / Venus LE / Tropo PRO-L [Radeon HD 8830M / R7 250 / R7 M465X]
+/0/100/1/0.1              multimedia     Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series]
+/0/100/2                  display        HD Graphics 630
+/0/100/14                 bus            200 Series/Z370 Chipset Family USB 3.0 xHCI Controller
+/0/100/14.2               generic        200 Series PCH Thermal Subsystem
+/0/100/15                 generic        200 Series PCH Serial IO I2C Controller #0
+/0/100/16                 communication  200 Series PCH CSME HECI #1
+/0/100/17                 storage        200 Series PCH SATA controller [AHCI mode]
+/0/100/1c                 bridge         200 Series PCH PCI Express Root Port #4
+/0/100/1c/0               bridge         XIO2001 PCI Express-to-PCI Bridge
+/0/100/1f                 bridge         200 Series PCH LPC Controller (Q270)
+/0/100/1f.2               memory         Memory controller
+/0/100/1f.3               multimedia     200 Series PCH HD Audio
+/0/100/1f.4               bus            200 Series/Z370 Chipset Family SMBus Controller
+/0/100/1f.6   enp0s31f6   network        Ethernet Connection (5) I219-LM
+/0/2                      system         PnP device PNP0c02
+/0/3                      communication  PnP device PNP0501
+/0/4                      input          PnP device PNP0303
+/0/5                      input          PnP device PNP0f03
+/0/6                      system         PnP device PNP0c02
+/0/7                      system         PnP device PNP0c02
+/0/8                      system         PnP device PNP0b00
+/0/9                      generic        PnP device INT3f0d
+/0/a                      system         PnP device PNP0c02
+/0/b                      system         PnP device PNP0c02
+/0/c                      system         PnP device PNP0c02
+/0/d                      system         PnP device PNP0c02
+/1            virbr0-nic  network        Ethernet interface
+/2            virbr0      network        Ethernet interface

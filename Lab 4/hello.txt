@@ -1,0 +1,3 @@
+Hello, this is being typed from a remote Linux server hosted by Brooklyn College.
+Hitting the enter key doesn't close this prompt, only moves to the next line like a normal text editor
+Hitting CTRL+D definitely will though.

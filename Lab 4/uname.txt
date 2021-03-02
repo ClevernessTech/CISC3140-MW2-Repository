@@ -1,0 +1,1 @@
+Linux sol25 3.10.0-1160.11.1.el7.x86_64 #1 SMP Tue Dec 15 08:51:23 CST 2020 x86_64 x86_64 x86_64 GNU/Linux
