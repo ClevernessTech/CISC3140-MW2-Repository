@@ -1,0 +1,281 @@
+2004	Gremlins 2: The New Batch	1990	Comedy|Horror
+7169	Chasing Liberty	2004	Comedy|Romance
+7173	Along Came Polly	2004	Comedy|Romance
+7175	Torque	2004	Action|Crime
+7254	The Butterfly Effect	2004	Drama|Sci-Fi|Thriller
+7255	Win a Date with Tad Hamilton!	2004	Comedy|Romance
+7257	Big Bounce, The	2004	Comedy|Crime|Thriller
+7258	Perfect Score, The	2004	Comedy|Crime
+7259	You Got Served	2004	Drama|Musical
+7261	Barbershop 2: Back in Business	2004	Comedy
+7262	Catch That Kid	2004	Action|Adventure|Children|Comedy|Crime
+7263	Miracle	2004	Drama
+7293	50 First Dates	2004	Comedy|Romance
+7294	Welcome to Mooseport	2004	Comedy
+7315	Against the Ropes	2004	Comedy|Drama
+7316	Confessions of a Teenage Drama Queen	2004	Comedy
+7317	EuroTrip	2004	Adventure|Comedy
+7318	Passion of the Christ, The	2004	Drama
+7319	Club Dread	2004	Comedy|Horror
+7320	Dirty Dancing: Havana Nights	2004	Romance
+7321	Twisted	2004	Thriller
+7324	Hidalgo	2004	Adventure|Drama
+7325	Starsky & Hutch	2004	Action|Comedy|Crime|Thriller
+7326	Reckoning, The	2004	Crime|Drama
+7345	Agent Cody Banks 2: Destination London	2004	Action|Adventure|Children|Comedy
+7346	Girl Next Door, The	2004	Comedy|Romance
+7347	Secret Window	2004	Mystery|Thriller
+7348	Spartan	2004	Thriller
+7360	Dawn of the Dead	2004	Action|Drama|Horror|Thriller
+7361	Eternal Sunshine of the Spotless Mind	2004	Drama|Romance|Sci-Fi
+7362	Taking Lives	2004	Crime|Drama|Thriller
+7366	Jersey Girl	2004	Comedy|Drama|Romance
+7367	Ladykillers, The	2004	Comedy|Crime
+7368	Never Die Alone	2004	Crime|Drama|Thriller
+7369	Scooby-Doo 2: Monsters Unleashed	2004	Action|Adventure|Children|Comedy|Mystery
+7373	Hellboy	2004	Action|Adventure|Fantasy|Horror
+7375	Prince & Me, The	2004	Comedy|Romance
+7376	Walking Tall	2004	Action
+7379	The Alamo	2004	Drama|War|Western
+7380	Ella Enchanted	2004	Comedy|Fantasy|Romance
+7381	Whole Ten Yards, The	2004	Action|Comedy|Crime
+7438	Kill Bill: Vol. 2	2004	Action|Drama|Thriller
+7439	Punisher, The	2004	Action|Crime|Thriller
+7440	Paper Clips	2004	Documentary
+7444	13 Going on 30	2004	Comedy|Fantasy|Romance
+7445	Man on Fire	2004	Action|Crime|Drama|Mystery|Thriller
+7448	Envy	2004	Comedy
+7449	Godsend	2004	Drama|Horror|Thriller
+7450	Laws of Attraction	2004	Comedy|Romance
+7451	Mean Girls	2004	Comedy
+7454	Van Helsing	2004	Action|Adventure|Fantasy|Horror
+7457	Breakin' All the Rules	2004	Comedy|Romance
+7458	Troy	2004	Action|Adventure|Drama|War
+8360	Shrek 2	2004	Adventure|Animation|Children|Comedy|Musical|Romance
+8361	Day After Tomorrow, The	2004	Action|Adventure|Drama|Sci-Fi|Thriller
+8362	Raising Helen	2004	Comedy|Drama|Romance
+8363	Soul Plane	2004	Comedy
+8366	Saved!	2004	Comedy|Drama
+8368	Harry Potter and the Prisoner of Azkaban	2004	Adventure|Fantasy|IMAX
+8369	Mindhunters	2004	Action|Crime|Horror|Mystery|Thriller
+8371	Chronicles of Riddick, The	2004	Action|Sci-Fi|Thriller
+8372	Garfield: The Movie	2004	Animation|Children|Comedy
+8373	Stepford Wives, The	2004	Comedy|Fantasy|Thriller
+8375	Hunting of the President, The	2004	Documentary
+8376	Napoleon Dynamite	2004	Comedy
+8464	Super Size Me	2004	Comedy|Documentary|Drama
+8526	Around the World in 80 Days	2004	Adventure|Children|Comedy
+8528	Dodgeball: A True Underdog Story	2004	Comedy
+8529	Terminal, The	2004	Comedy|Drama|Romance
+8530	Dear Frankie	2004	Drama|Romance
+8531	White Chicks	2004	Action|Comedy|Crime
+8532	Door in the Floor, The	2004	Drama
+8533	Notebook, The	2004	Drama|Romance
+8534	Two Brothers (Deux frères)	2004	Adventure|Children|Drama
+8535	De-Lovely	2004	Drama|Musical
+8622	Fahrenheit 9/11	2004	Documentary
+8636	Spider-Man 2	2004	Action|Adventure|Sci-Fi|IMAX
+8638	Before Sunset	2004	Drama|Romance
+8640	King Arthur	2004	Action|Adventure|Drama|War
+8641	Anchorman: The Legend of Ron Burgundy	2004	Comedy
+8643	Cinderella Story, A	2004	Comedy|Romance
+8644	I, Robot	2004	Action|Adventure|Sci-Fi|Thriller
+8645	Maria Full of Grace (Maria, Llena eres de gracia)	2004	Crime|Drama
+8665	Bourne Supremacy, The	2004	Action|Crime|Thriller
+8666	Catwoman	2004	Action|Crime|Fantasy
+8667	A Home at the End of the World	2004	Drama|Romance
+8781	Manchurian Candidate, The	2004	Thriller
+8782	Thunderbirds	2004	Action|Adventure|Fantasy|Sci-Fi
+8783	Village, The	2004	Drama|Mystery|Thriller
+8784	Garden State	2004	Comedy|Drama|Romance
+8798	Collateral	2004	Action|Crime|Drama|Thriller
+8799	Little Black Book	2004	Comedy|Romance
+8807	Harold and Kumar Go to White Castle	2004	Adventure|Comedy
+8808	Princess Diaries 2: Royal Engagement, The	2004	Comedy|Romance
+8810	AVP: Alien vs. Predator	2004	Action|Horror|Sci-Fi|Thriller
+8813	We Don't Live Here Anymore	2004	Drama
+8814	Without a Paddle	2004	Comedy
+8815	Exorcist: The Beginning	2004	Horror|Thriller
+8830	Anacondas: The Hunt for the Blood Orchid	2004	Adventure|Drama|Horror|Sci-Fi|Thriller
+8831	Suspect Zero	2004	Crime|Thriller
+8833	Vanity Fair	2004	Drama|Romance
+8835	Paparazzi	2004	Drama|Thriller
+8836	Wicker Park	2004	Drama|Romance|Thriller
+8860	Cellular	2004	Action|Crime|Drama|Mystery|Thriller
+8861	Resident Evil: Apocalypse	2004	Action|Horror|Sci-Fi|Thriller
+8864	Mr. 3000	2004	Comedy|Drama
+8865	Sky Captain and the World of Tomorrow	2004	Action|Adventure|Sci-Fi
+8866	Wimbledon	2004	Comedy|Romance
+8869	First Daughter	2004	Comedy|Romance
+8870	Forgotten, The	2004	Drama|Mystery|Sci-Fi|Thriller
+8873	Motorcycle Diaries, The (Diarios de motocicleta)	2004	Adventure|Drama
+8874	Shaun of the Dead	2004	Comedy|Horror
+8907	Shark Tale	2004	Animation|Children|Comedy
+8908	Ladder 49	2004	Action|Drama|Thriller
+8910	I Heart Huckabees	2004	Comedy
+8911	Raise Your Voice	2004	Romance
+8912	Taxi	2004	Action|Comedy
+8914	Primer	2004	Drama|Sci-Fi
+8915	Stage Beauty	2004	Drama
+8916	Shall We Dance?	2004	Comedy|Romance
+8917	Team America: World Police	2004	Action|Adventure|Animation|Comedy
+8918	Eulogy	2004	Comedy|Crime|Drama
+8919	P.S.	2004	Comedy|Drama|Fantasy|Romance
+8937	Friday Night Lights	2004	Action|Drama
+8939	Final Cut, The	2004	Sci-Fi|Thriller
+8943	Being Julia	2004	Comedy|Drama
+8946	Surviving Christmas	2004	Comedy
+8947	Grudge, The	2004	Horror|Mystery|Thriller
+8948	Alfie	2004	Comedy|Drama|Romance
+8949	Sideways	2004	Comedy|Drama|Romance
+8950	The Machinist	2004	Drama|Mystery|Thriller
+8951	Vera Drake	2004	Drama
+8954	Lightning in a Bottle	2004	Documentary
+8955	Undertow	2004	Crime|Drama|Thriller
+8957	Saw	2004	Horror|Mystery|Thriller
+8958	Ray	2004	Drama
+8959	Birth	2004	Drama|Mystery
+8961	Incredibles, The	2004	Action|Adventure|Animation|Children|Comedy
+8965	Polar Express, The	2004	Adventure|Animation|Children|Fantasy|IMAX
+8966	Kinsey	2004	Drama
+8967	Seed of Chucky (Child's Play 5)	2004	Comedy|Horror
+8968	After the Sunset	2004	Action|Adventure|Comedy|Crime|Thriller
+8969	Bridget Jones: The Edge of Reason	2004	Comedy|Drama|Romance
+8970	Finding Neverland	2004	Drama
+8972	National Treasure	2004	Action|Adventure|Drama|Mystery|Thriller
+8973	Bad Education (La mala educación)	2004	Drama|Thriller
+8974	SpongeBob SquarePants Movie, The	2004	Adventure|Animation|Children|Comedy
+8977	Alexander	2004	Action|Adventure|Drama|War
+8978	Christmas with the Kranks	2004	Children|Comedy
+8979	Guerrilla: The Taking of Patty Hearst	2004	Documentary
+8981	Closer	2004	Drama|Romance
+8983	House of Flying Daggers (Shi mian mai fu)	2004	Action|Drama|Romance
+8984	Ocean's Twelve	2004	Action|Comedy|Crime|Thriller
+8985	Blade: Trinity	2004	Action|Fantasy|Horror|Thriller
+8987	Bush's Brain	2004	Documentary
+9018	Control Room	2004	Documentary|War
+27266	2046	2004	Drama|Fantasy|Romance|Sci-Fi
+27450	Blueberry	2004	Adventure|Western
+27619	Lion King 1½, The	2004	Adventure|Animation|Children|Comedy
+27683	Tremors 4: The Legend Begins	2004	Action|Comedy|Horror|Sci-Fi|Thriller|Western
+27685	Bring It On Again	2004	Comedy
+27689	Crimson Rivers 2: Angels of the Apocalypse (Rivières pourpres II - Les anges de l'apocalypse, Les)	2004	Action|Crime|Thriller
+27706	Lemony Snicket's A Series of Unfortunate Events	2004	Adventure|Children|Comedy|Fantasy
+27721	Very Long Engagement, A (Un long dimanche de fiançailles)	2004	Drama|Mystery|Romance|War
+27728	Ghost in the Shell 2: Innocence (a.k.a. Innocence) (Inosensu)	2004	Action|Animation|Drama|Sci-Fi|Thriller
+27746	Ginger Snaps: Unleashed	2004	Horror|Thriller
+27751	'Salem's Lot	2004	Drama|Horror|Mystery|Thriller
+27762	Comic Book: The Movie	2004	Comedy
+27768	Intimate Strangers (Confidences trop intimes)	2004	Drama
+27769	Down to the Bone	2004	Drama
+27776	Red Lights (Feux rouges)	2004	Drama
+27778	Ginger Snaps Back: The Beginning	2004	Fantasy|Horror
+27790	Millions	2004	Children|Comedy|Crime|Drama|Fantasy
+27793	Starship Troopers 2: Hero of the Federation	2004	Action|Horror|Sci-Fi|War
+27803	Sea Inside, The (Mar adentro)	2004	Drama
+27808	Spanglish	2004	Comedy|Drama|Romance
+27815	Chorus, The (Choristes, Les)	2004	Drama
+27826	Touch of Pink	2004	Comedy|Drama|Romance
+27829	Slasher	2004	Documentary
+27830	Bobby Jones, Stroke of Genius	2004	Drama
+27831	Layer Cake	2004	Crime|Drama|Thriller
+27837	Flight of the Phoenix	2004	Action|Adventure
+27838	Mean Creek	2004	Drama|Thriller
+27866	In My Father's Den	2004	Drama
+27869	Tae Guk Gi: The Brotherhood of War (Taegukgi hwinalrimyeo)	2004	Action|Drama|War
+27873	Metallica: Some Kind of Monster	2004	Documentary
+27878	Born into Brothels	2004	Documentary
+27879	DiG!	2004	Documentary
+27882	Riding Giants	2004	Documentary
+27899	What the #$*! Do We Know!? (a.k.a. What the Bleep Do We Know!?)	2004	Comedy|Documentary|Drama
+27905	Casshern	2004	Action|Drama|Fantasy|Sci-Fi
+27912	Outfoxed: Rupert Murdoch's War on Journalism	2004	Documentary
+30707	Million Dollar Baby	2004	Drama
+30749	Hotel Rwanda	2004	Drama|War
+30803	3-Iron (Bin-jip)	2004	Drama|Romance
+30810	Life Aquatic with Steve Zissou, The	2004	Adventure|Comedy|Fantasy
+30812	Aviator, The	2004	Drama
+30816	Phantom of the Opera, The	2004	Drama|Musical|Romance
+30818	Beyond the Sea	2004	Drama|Musical
+30820	Woodsman, The	2004	Drama
+30822	In Good Company	2004	Comedy|Drama
+30825	Meet the Fockers	2004	Comedy
+30846	Assassination of Richard Nixon, The	2004	Crime|Drama|Thriller
+30848	Love Song for Bobby Long, A	2004	Drama
+30850	Merchant of Venice, The	2004	Drama
+30883	Fat Albert	2004	Comedy|Fantasy
+30890	Keys to the House, The (Chiavi di casa, Le)	2004	Drama
+30892	In the Realms of the Unreal	2004	Animation|Documentary
+31114	Imaginary Heroes	2004	Comedy|Drama
+31162	Life and Death of Peter Sellers, The	2004	Comedy|Drama
+31184	Appleseed (Appurushîdo)	2004	Action|Animation|Fantasy|Sci-Fi
+31410	Downfall (Untergang, Der)	2004	Drama|War
+31435	Rory O'Shea Was Here (Inside I'm Dancing)	2004	Drama
+31437	Nobody Knows (Dare mo shiranai)	2004	Drama
+31445	Employee of the Month	2004	Comedy|Drama
+31658	Howl's Moving Castle (Hauru no ugoku shiro)	2004	Adventure|Animation|Fantasy|Romance
+31660	Steamboy (Suchîmubôi)	2004	Action|Animation|Drama|Sci-Fi
+31694	Bride & Prejudice	2004	Comedy|Musical|Romance
+31702	Turtles Can Fly (Lakposhtha hâm parvaz mikonand)	2004	Drama|War
+31804	Night Watch (Nochnoy dozor)	2004	Action|Fantasy|Horror|Mystery|Sci-Fi|Thriller
+31878	Kung Fu Hustle (Gong fu)	2004	Action|Comedy
+32022	Gunner Palace	2004	Documentary|War
+32213	Cube Zero	2004	Horror|Mystery|Sci-Fi|Thriller
+32291	Melinda and Melinda	2004	Comedy|Drama
+32300	D.E.B.S.	2004	Action|Comedy
+32302	League of Ordinary Gentlemen, A	2004	Documentary
+32314	Incident at Loch Ness	2004	Adventure|Comedy|Documentary
+32600	Eros	2004	Drama
+32770	Brothers (Brødre)	2004	Drama
+33124	Before the Fall (NaPolA - Elite für den Führer)	2004	Drama|War
+33138	Palindromes	2004	Adventure|Comedy|Drama
+33166	Crash	2004	Crime|Drama
+33171	Mysterious Skin	2004	Drama|Mystery
+33310	Common Thread, A (a.k.a. Sequins) (Brodeuses)	2004	Drama|Romance
+33649	Saving Face	2004	Comedy|Drama|Romance
+33725	It's All Gone Pete Tong	2004	Comedy|Drama|Musical
+33801	Godzilla: Final Wars (Gojira: Fainaru uôzu)	2004	Action|Adventure|Fantasy|Sci-Fi
+33826	Saint Ralph	2004	Comedy|Drama
+33893	Perfect Crime, The (Crimen Ferpecto) (Ferpect Crime)	2004	Comedy|Crime|Thriller
+33896	3 Extremes (Three... Extremes) (Saam gaang yi)	2004	Horror
+33903	Edukators, The (Die Fetten Jahre sind vorbei)	2004	Comedy|Crime|Drama|Romance
+34312	Calcium Kid, The	2004	Comedy
+34330	November	2004	Drama|Mystery
+34811	Pusher II: With Blood on My Hands	2004	Action|Crime|Drama|Thriller
+36931	New Police Story (Xin jing cha gu shi)	2004	Action|Crime|Drama
+37495	Survive Style 5+	2004	Fantasy|Mystery|Romance|Thriller
+37830	Final Fantasy VII: Advent Children	2004	Action|Adventure|Animation|Fantasy|Sci-Fi
+38198	Darwin's Nightmare	2004	Documentary
+39516	Don't Move (Non ti muovere)	2004	Drama
+40412	Dead Man's Shoes	2004	Crime|Thriller
+40617	Creep	2004	Horror|Thriller
+40966	Libertine, The	2004	Drama
+42004	Transamerica	2005	Adventure|Comedy|Drama
+42718	District 13 (Banlieue 13)	2004	Action|Crime|Sci-Fi
+43549	Helter Skelter	2004	Action|Crime|Drama|Horror
+44851	Go for Zucker! (Alles auf Zucker!)	2004	Comedy
+47404	Mind Game	2004	Adventure|Animation|Comedy|Fantasy|Romance|Sci-Fi
+48214	Land of Plenty (Angst and Alienation in America)	2004	Drama
+50613	Dead Meat	2004	Horror
+50942	Wake Up, Ron Burgundy	2004	Comedy
+53140	Librarian: Quest for the Spear, The	2004	Action|Adventure|Comedy|Fantasy|Romance
+53883	Power of Nightmares, The: The Rise of the Politics of Fear	2004	Documentary
+55207	Cashback	2004	Comedy|Drama
+58870	Zebraman	2004	Comedy
+63433	Farscape: The Peacekeeper Wars	2004	Action|Adventure|Sci-Fi
+65359	Earthsea (Legend of Earthsea)	2004	Adventure|Drama|Fantasy
+79006	Empire of Dreams: The Story of the 'Star Wars' Trilogy	2004	Documentary
+86504	Voices from the List	2004	Documentary
+92494	Dylan Moran: Monster	2004	Comedy|Documentary
+93988	North & South	2004	Drama|Romance
+97757	'Hellboy': The Seeds of Creation	2004	Action|Adventure|Comedy|Documentary|Fantasy
+110781	Mulan II	2004	Action|Animation|Children|Comedy|Musical
+118888	Dave Chappelle: For What it's Worth	2004	Comedy
+125974	Halloweentown High	2004	Adventure|Children|Comedy|Fantasy
+136353	Scooby-Doo! and the Loch Ness Monster	2004	Animation|Children|Comedy
+147002	Eros	2004	Drama|Romance
+160978	Hellevator	2004	Horror|Sci-Fi
+165959	Alesha Popovich and Tugarin the Dragon	2004	Animation|Comedy|Drama
+170289	Species III	2004	Action|Horror|Sci-Fi
+172321	Late Night with Conan O'Brien: The Best of Triumph the Insult Comic Dog	2004	Comedy
+182731	Pixel Perfect	2004	Children|Comedy|Sci-Fi

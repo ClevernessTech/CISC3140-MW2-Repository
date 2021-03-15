@@ -1,0 +1,52 @@
+ 1995  javac MovieGenres.java 
+ 1996  javac MovieGenres.java lib/opencsv-5.1.jar
+ 1997  javac -help
+ 1998  javac -sourcepath src MovieGenres.java 
+ 1999  javac -sourcepath ./src MovieGenres.java 
+ 2000  javac -g -classpath ./src/opencsv-5.1.jar MovieGenres.java 
+ 2001  javac -g -classpath /src/opencsv-5.1.jar MovieGenres.java 
+ 2002  javac -g -classpath ./src/opencsv-5.1.jar MovieGenres.java 
+ 2003  javac -g -classpath ./src/opencsv-5.1.jar MovieGenres.java -sourcepath /src/java MovieGenres.java 
+ 2004  javac -g -classpath ./src/opencsv-5.1.jar MovieGenres.java -sourcepath ./src/java MovieGenres.java 
+ 2005  javac -g -classpath ./src/opencsv-5.1.jar MovieGenres.java -sourcepath ./src/java *.java 
+ 2006  javac -g -classpath ./src/opencsv-5.1.jar *.java 
+ 2007  java *.class
+ 2008  java MovieGenres 
+ 2009  java MovieGenres.class
+ 2010  jar MovieGenre.class
+ 2011  jar MoviesGenres.java
+ 2012  java MovieGenres
+ 2013  java --help
+ 2014  java -classpath ./src; MovieGenres
+ 2015  java -classpath ./src/ MovieGenres
+ 2016  java -classpath ./src/ MovieGenres.class
+ 2017  javac -g -classpath ./src/opencsv-5.1.jar ./java/*.java 
+ 2018  java -classpath ./src/ java.MovieGenres
+ 2019  java -classpath ./src/ java
+ 2020  java -classpath ./src/ java.MovieGenres.class
+ 2021  java -classpath . java.MovieGenres
+ 2022  java -classpath . MovieGenres
+ 2023  java -classpath ./ MovieGenres
+ 2024  java -classpath . MovieGenres
+ 2025  java -classpath . java.MovieGenres
+ 2026  cd "/home/cleverness/CISC 3140/Lab 5" ; /usr/bin/env /usr/lib/jvm/jdk-11.0.10+9/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_50uca9otyyr8mhs1llfj9eq30.argfile MovieGenres 
+ 2027  cd "/home/cleverness/CISC 3140/Lab 5" ; /usr/bin/env /usr/lib/jvm/jdk-11.0.10+9/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_50uca9otyyr8mhs1llfj9eq30.argfile MovieGenres > movielist.txt
+ 2028  awk '/1995/' movielist.txt
+ 2029  awk '/comedy/' movielist.txt
+ 2030  awk '/Comedy/' movielist.txt
+ 2031  awk '/Comedy/' '/1995/'  movielist.txt
+ 2032  history 100
+ 
+  1995  chmod +x script.sh
+ 1996  ./script.sh
+ 1997  ./script.sh Comedy
+ 1998  ./script.sh 1997
+ 1999  ./script.sh 2004
+ 2000  ./script.sh Lord of the Rings
+ 2001  ./script.sh "Lord of the Rings"
+ 2002  ./script.sh 'Lord of the Rings'
+ 2003  ./script.sh 2020
+ 2004  ./script.sh 2022
+ 2005  ./script.sh Comedy
+
+
