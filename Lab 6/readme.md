@@ -32,6 +32,12 @@ git remote add origin git@github.com:ClevernessTech/Repo1.git
 ```
 
 which creates a remote url called *origin*.  If you don't have SSH setup, HTTPS still works for Github but it is depreciated so eventually you won't be able to push with it.  Plus, SSH is also more secure.  Now you aren't limited to uploading to github, or only 1 remote location.  You can add multiple, just give them different names.  
+
+Step 6) You want to now push the files to your remote repository.  We have committed the changes we want to commit, we have specified a remote url called origin, and we are only working on the master branch(default name for my main branch) so that's the branch we are going to be pushing for this.  
+
+One other option you may want to add if you have multiple people working on an online repository is to set your online repository as your upstream with the **-u** option.  If you try to push, but the online repository has changed since you last committed or pulled from it, you will encounter an error possibly.  Doing a simple **git pull** will resolve any conflicts before the push.
+
+Below is the output I saw when pushing to Repo1.
 ```
 cleverness@pop-os:~/Repo 1$ git push -u origin master
 Enumerating objects: 3, done.
@@ -49,18 +55,42 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 [Located here on RiouxSVN](https://svn.riouxsvn.com/cisc3140repo2/)
 
+Step 1) Create the online repo.  I did this at the provider above at that link
+
+Step 2) Checkout the repository.  This is done with the command
 
 ```
- 2114  svn checkout --username Cleverness https://svn.riouxsvn.com/cisc3140repo2/
- 2115  cd Repo2
- 2116  ls
- 2117  cd cisc3140repo2/
- 2118  ls
- 2119  svn up trunk
- 2120  svn up
- 2121  svn add introduction.py 
- 2122  svn update
- 2123  svn commit -m "First commit"
+svn checkout --username Cleverness https://svn.riouxsvn.com/cisc3140repo2/
+```
+
+in my case.  This creates a folder called cisc3140repo2(since thats what I called the repository in the management screen, apparently repo names on this online repository are not unique to the user, but the entire userbase) so I want to move into that directory.
+
+```
+cd cisc3140repo2/
+```
+
+Step 3) Update the trunk, or main branch, folder to make sure there's no errors related to working copy, conflicts, etc
+
+```
+svn up trunk
+```
+
+As this is my first commit I'm not creating any branches that have to be merged in although it seems I wouldnt have a problem with that on this platform.
+
+Step 4) Add/change any files.  In this case I'm adding introduction.py, same file I added for Repo 1.
+```
+svn add introduction.py 
+```
+
+Step 5) Update the branch, since I only have 1 I didn't need to really specify anything here
+```
+svn update
+```
+
+Step 6) Commit your changes in a similar manner to how you do it on github.  I didn't need to specify a remote location to push it seems since I did when checking it out, so committing with a message automatically pushed it 
+
+```
+svn commit -m "First commit"
 ```
 
 ## Issues with SVN process
