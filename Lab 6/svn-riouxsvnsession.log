@@ -1,0 +1,15 @@
+ 2105  svn checkout --depth empty https://riouxsvn.com/repository/?name=cisc3140repo2
+ 2106  svn checkout --depth empty https://svn.riouxsvn.com/cisc3140repo2
+ 2111  svn checkout https://svn.riouxsvn.com/cisc3140repo2
+ 2112  svn checkout https://svn.riouxsvn.com/cisc3140repo2 -u Cleverness
+ 2113  svn info
+ 2114  svn checkout --username Cleverness https://svn.riouxsvn.com/cisc3140repo2/
+ 2115  cd Repo2
+ 2116  ls
+ 2117  cd cisc3140repo2/
+ 2118  ls
+ 2119  svn up trunk
+ 2120  svn up
+ 2121  svn add introduction.py 
+ 2122  svn update
+ 2123  svn commit -m "First commit"

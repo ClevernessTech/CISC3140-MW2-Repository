@@ -1,0 +1,44 @@
+cleverness@pop-os:~/Repo 1$ git init 
+Initialized empty Git repository in /home/cleverness/Repo 1/.git/
+cleverness@pop-os:~/Repo 1$ git add introduction.py 
+cleverness@pop-os:~/Repo 1$ git commit -m "Initial commit, adding introduction python program"
+[master (root-commit) 99e0f89] Initial commit, adding introduction python program
+ Committer: Jose Soto <cleverness@pop-os.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 45 insertions(+)
+ create mode 100644 introduction.py
+cleverness@pop-os:~/Repo 1$ git remote add git@github.com:ClevernessTech/Repo1.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+cleverness@pop-os:~/Repo 1$ git remote --help
+cleverness@pop-os:~/Repo 1$ git remote add origin git@github.com:ClevernessTech/Repo1.git
+cleverness@pop-os:~/Repo 1$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.03 KiB | 1.03 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:ClevernessTech/Repo1.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

@@ -1,0 +1,88 @@
+cleverness@pop-os:~$ svn checkout https://github.com/ClevernessTech/Repo2
+Checked out revision 0.
+cleverness@pop-os:~$ cd ./Repo2
+cleverness@pop-os:~/Repo2$ svn status
+cleverness@pop-os:~/Repo2$ svn update
+Updating '.':
+At revision 0.
+cleverness@pop-os:~/Repo2$ svn add ~/introduction.py 
+svn: E155007: '/home/cleverness' is not a working copy
+cleverness@pop-os:~/Repo2$ svn add introduction.py 
+A         introduction.py
+cleverness@pop-os:~/Repo2$ svn update
+Updating '.':
+At revision 0.
+cleverness@pop-os:~/Repo2$ svn cleanup
+cleverness@pop-os:~/Repo2$ svn commit -m 'Added introduction.py to subversion repo'
+Authentication realm: <https://github.com:443> GitHub
+Password for 'cleverness': ****************
+
+Authentication realm: <https://github.com:443> GitHub
+Username: josegsoto@cleverness.tech
+Password for 'josegsoto@cleverness.tech': ****************
+
+Adding         introduction.py
+Transmitting file data .svn: E155011: Commit failed (details follow):
+svn: E155011: File '/home/cleverness/Repo2/introduction.py' is out of date
+svn: E160024: Files must be stored under trunk/ or a branches/ subdirectory
+cleverness@pop-os:~/Repo2$ svn up trunk
+Updating 'trunk':
+A    trunk
+svn: E235000: In file '/build/subversion-Z4OiCa/subversion-1.13.0/subversion/libsvn_wc/wc_db.c' line 1648: assertion failed (SVN_IS_VALID_REVNUM(changed_rev))
+Aborted (core dumped)
+cleverness@pop-os:~/Repo2$ svn status
+  L     .
+A       introduction.py
+! L     trunk
+cleverness@pop-os:~/Repo2$ cd trunk/
+cleverness@pop-os:~/Repo2/trunk$ ls
+cleverness@pop-os:~/Repo2/trunk$ svn up trunk
+svn: E155004: Run 'svn cleanup' to remove locks (type 'svn help cleanup' for details)
+svn: E155004: Working copy '/home/cleverness/Repo2/trunk' locked.
+svn: E155004: '/home/cleverness/Repo2' is already locked.
+cleverness@pop-os:~/Repo2/trunk$ svn cleanup
+cleverness@pop-os:~/Repo2/trunk$ svn cleanup
+cleverness@pop-os:~/Repo2/trunk$ svn up trunk
+Updating 'trunk':
+svn: E235000: In file '/build/subversion-Z4OiCa/subversion-1.13.0/subversion/libsvn_wc/update_editor.c' line 2709: assertion failed (db->propchanges->nelts == 0)
+Aborted (core dumped)
+cleverness@pop-os:~/Repo2/trunk$ svn cleanup --remove-unversioned
+svn: E155004: Run 'svn cleanup' to remove locks (type 'svn help cleanup' for details)
+svn: E155004: Working copy locked; if no other Subversion client is currently using the working copy, try running 'svn cleanup' without the --remove-unversioned and --remove-ignored options first.
+svn: E155004: Working copy '/home/cleverness/Repo2/trunk' locked.
+svn: E155004: '/home/cleverness/Repo2/trunk' is already locked.
+cleverness@pop-os:~/Repo2/trunk$ svn cleanup
+cleverness@pop-os:~/Repo2/trunk$ ls
+cleverness@pop-os:~/Repo2/trunk$ cd ..
+cleverness@pop-os:~/Repo2$ ls
+introduction.py  trunk
+cleverness@pop-os:~/Repo2$ svn cleanup
+cleverness@pop-os:~/Repo2$ cd ..
+cleverness@pop-os:~$ svn cleanup
+svn: E155007: '/home/cleverness' is not a working copy directory
+cleverness@pop-os:~$ cd ./Repo2
+cleverness@pop-os:~/Repo2$ svn status
+A       introduction.py
+!       trunk
+cleverness@pop-os:~/Repo2$ svn update
+Updating '.':
+Skipped 'trunk' -- An obstructing working copy was found
+At revision 0.
+Summary of conflicts:
+  Skipped paths: 1
+cleverness@pop-os:~/Repo2$ cd ~
+cleverness@pop-os:~$ svn checkout --depth empty https://github.com/ClevernessTech/Repo2
+Checked out revision 0.
+cleverness@pop-os:~$ cd Repo2
+cleverness@pop-os:~/Repo2$ ls
+cleverness@pop-os:~/Repo2$ svn up trunk
+Updating 'trunk':
+A    trunk
+svn: E235000: In file '/build/subversion-Z4OiCa/subversion-1.13.0/subversion/libsvn_wc/wc_db.c' line 1648: assertion failed (SVN_IS_VALID_REVNUM(changed_rev))
+Aborted (core dumped)
+cleverness@pop-os:~/Repo2$ svn up help
+svn: E155004: Run 'svn cleanup' to remove locks (type 'svn help cleanup' for details)
+svn: E155004: Working copy '/home/cleverness/Repo2' locked.
+svn: E155004: '/home/cleverness/Repo2' is already locked.
+cleverness@pop-os:~/Repo2$ svn cleanup
+cleverness@pop-os:~/Repo2$ cd 
