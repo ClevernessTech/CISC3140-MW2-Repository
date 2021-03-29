@@ -1,0 +1,16 @@
+(define (c-to-f temp)
+    (+ (* 1.8 temp) 32.0)
+)
+
+(define (f-to-c temp)
+    (* (- temp 32.0) (/ 5.0 9.0))
+)
+
+(write "This program is meant to be run by command line to test different values.  If you don't want to do that, will provide 2 set outputs below")(newline)
+(write "First is the conversion running with an input of 32 degrees Celsius to Fahrenheit")(newline)
+(display (c-to-f 32))(newline)
+(write "Second is the conversion running with an input of 100 degrees Fahrenheit to Celsius")(newline)
+(display (f-to-c 100))(newline)
+(write "If you wish to do any custom conversions, please execute the following via CLI;")(newline)
+(write "(c-to-f temp) where temp is the temperature in Celsius you wish to convert")(newline)
+(write "(f-to-c temp) where temp is the temperature in Fahrenheit you wish to convert")(newline)
