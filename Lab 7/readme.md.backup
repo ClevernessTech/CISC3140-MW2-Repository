@@ -1,80 +1,63 @@
-### Jose Soto, CISC3140-MW2 Spring 2021 [Lab 7 Assignment](https://docs.google.com/document/d/1qRxEH_pbgJOBe4m5O4RHH7MhR-8wyuhur7GPTJx4YA0/edit)
+# Abstract
 
-# Scheme Introduction
+This page will show the creation and any changes made to this virtual machine throughout this project.
 
-This lab involved writing a basic program in Scheme and then writing out how to get to the solution.
+## Preparations
 
-## Temperature Conversion
+To create this server I first need a machine to run it on, and the install image plus license key for it.  I already own a machine for this project, [Server 2 detailed here](https://cleverness.tech/homelab/).  I already use Proxmox as the hypervisor for this machine, so this will be created Signing it on Azure with a student account and going through that setup process actually provides access to these images and a license for both Windows Server 2016 and Windows Server 2019.  I'll be using the 2016 version for the Domain Controller for no particular reason.
 
-I did temperature conversion since it was one of the programming ideas provided, and it does enough to at least get us using what we learned so far involving evaluations, functions and displaying data.   First before writing out the scheme I needed to reference the actual formulas for this conversion.
+## Creating the VM
 
-(C × 9/5) + 32 = F 
+1) From the Proxmox Web Management GUI, click the blue Create VM button in the top right corner.
 
-gives us Celsius to Fahrenheit, while
+2) It'll ask for which node you want to install on(irrelevant for this install, I am not using a clustered setup) and the VM ID and name for labeling it on Proxmox.  I gave this one VM ID 104 and the name "4900DomainController" as the title of the page states, mostly to just easily label what this machine does while I go through this project.  Also click Advanced in the bottom here to see more options for the rest of the process.  There's one here asking if I want this VM to be started on machine boot.  As it's a critical service, check Yes.
 
-(F − 32) × 5/9 = C
+3) On the OS tab, select the image for the server.  Again, I'm using Windows Server 2016 for this.  For Guest OS select Windows and there's different versions for the different releases, the latest one for Windows 10 + Server 2016/2019 get selected by default and are fine for this.
 
-gives us Fahrenheit to Celsius.  So first I wanted to create a function for each formula that can be called later.  Starting with the first formula, I ended up with the following function
+4) For System Tab, nothing really needs to change here, I leave it on Default
 
-```
-(define (c-to-f temp)
-    (+ (* 1.8 temp) 32.0)
-)
-```
+5) The Hard Disk Tab will have us define where we want the VM to be stored and how much space we want to allocate to it.  
 
-Since I need to explain it, let's just break it down line by line(literally, since it's really just 2 lines).  First line defines a function I call c-to-f that utilizes a variable called temp, which is where I will be placing my values when calling this function later.  Line 2 is essentially the Prefix notation form of the first formula referenced above. Looking at it by itself, putting some emphasis on the different parts of the evaluation we see the following
+6) The CPU tab is for deciding how many cores I want this VM to have.  For now I'm giving it 1 core, but this can be easily changed later. 
 
-(**+** ~~(* 1.8 temp)~~ **32.0**)
-
-*Trying to bold/italicize in markdown with a * function in the line is a little annoying, so the first part of that formula will be referenced by the strike-through portion.* 
+7) The Memory tab will be where I define how much memory the machine will have access to.  My server has a total of 48 GB of RAM available to give.  At the start I'm giving this VM a minimum of 2048 MiB(or 2GB) and a maximum of 4096 MiB(or 4GB) of RAM.  Like the CPU tab, this can be easily changed later and increased/decreased.
  
- So we want this to be evaluated the same way the Celsius formula gets done, which means (C × 9/5) is done first.  So we write this out in prefix notation as such since the innermost parenthesis gets done first.  Also to avoid fractions as an answer in the CLI I just converted 9/5 to 1.8, otherwise that's how the final calculation would be outputted.   
+8) The Network tab is for defining which Bridge(created before this step) we'll be using for this VM and any VLANs(or virtual LANs, for network traffic segregation) we might want to assign to it.  This VM gets a dedicated ethernet nic assigned to bridge vmbr6 since it will be syncing constantly to Azure later on in this project.  
 
-Using the chosen value I picked in my program of 32 C as a test, this portion yields us a value of 57.6 so far.  Now the computer sees the line as
- 
-(**+** ~~57.6~~ **32.0**)
+9) The Confirm screen will give you the option to review the choices you made, and also the option to start after it's created, which 
 
-The strike-through parenthesis has been evaluated and we are just left with a simple prefix addition evaluation, which yields a value of 89.6.  
+And it's done, afterwards wait a few seconds for Proxmox to create the VM and allocate space for it and it should automatically be started and on the Windows install screen.  I won't bother with the install process for this, it will only have access the drive size we assigned in Step 5.
 
-Doing the same breakdown for Fahrenheit to Celsius we got the following function
+## Domain Controller Promotion
 
-```
-(define (f-to-c temp)
-    (* (- temp 32.0) (/ 5.0 9.0))
-)
-```
-First line defines a function I call f-to-c that utilizes a variable called temp, very similar to the definition of the other function.  Breaking down how I wanted the computer to calculate this in prefix I ended up with 
+After logging in to the server, Click the Manage button and then click Add Roles and Features.  Goal of this Server is to serve as my Domain Controller, so after selecting my server under Roles select "Active Directory Domain Service".  It'll select everything under it that we'll need, and we need to make sure DNS Server role is installed as well during this process.  After getting to the end you have the necessary files installed for it to serve as an Active Directory server but it needs to be promoted first.  There is a flag with a caution sign on it now in the top right.  Clicking on it will show a Post-Deployment option to promote the server to a domain controller, and opens a new menu for creating it. [This article on building your First Domain Controller for Windows Server 2012](https://social.technet.microsoft.com/wiki/contents/articles/22622.building-your-first-domain-controller-on-2012-r2.aspx) is still relevant in the setup process for Server 2016.
 
-(* ~~(- temp 32.0)~~ **(/ 5.0 9.0)**)
+Locally it wouldn't matter what we picked but since this will be integrated to Azure later on this is why I [registered a domain for use with the project](https://cleverness.tech/wiki/books/infrastructure-rollout/page/domain-registration).  Since I'm using josegsoto.com for this project that's the domain I'll be going with.  These changes will require a reboot to take effect.  After that, we can begin some Administration. 
 
-This time we ended up with 2 innermost parenthesis(represented by strike-through and bold) that need evaluating because 5/9 doesn't divide down into a nice small number like 9/5 did to 1.8, so to be as accurate as possible we are doing the division in line.  The Fahrenheit temperature I used to demo the function is 100 F, so if we look at the strike-through evaluation first we see it breaks down to (temp - 32) in notation we are used to, similar to the (F − 32) part of the formula that gets done first.  Then the other innermost parenthesis(which is technically at the same 'depth' as the first one so in this case it doesn't really matter which is done first, but i'm assuming the computer works like I do and goes from left-to-right) does a simple division of 5/9.  After performing that step the computer should see something like the line below
+## Active Directory Administrative Center
 
-(* ~~68~~ *0.555555556*) 
+After reboot, at the Server Manager screen under Tools we now see more options, for now we want to go into the Active Directory Administrative Center.
 
-which in this case just now becomes a simple multiplication evaluation which gives us 37.777777778 for our Celsius value.
+As we can see this is a useful menu for some tasks such as password resets(which will happen all the time) but let's create a user besides the administrator one that we're using on this console, so that we can log into this domain from another machine.  By clicking josegsoto(local) we can get a new menu, and on the right see we see new things we can create like Organizational Unit(OU), Group, User, Computer, etc.  Just click User for now and we get the following screen for the user creation process.
 
-## Testing the Functions
+We get to fill a pretty detailed information for the user, and if Groups are created we can assign it so it has specific permissions, a group email it could receive pings from, and who they would be Managed By.
 
-So I added the following write statements to first show 2 sample outputs I chose while testing the program to make sure it works while referencing other calculators to verify, and then gave instructions how to call the functions via CLI to convert any values you want.
+After creating the User I wanted to test if I could actually now connect to this Domain, which I will write about here.
 
-```
-(write "This program is meant to be run by command line to test different values.  If you don't want to do that, will provide 2 set outputs below")(newline)
-(write "First is the conversion running with an input of 32 degrees Celsius to Fahrenheit")(newline)
-(display (c-to-f 32))(newline)
-(write "Second is the conversion running with an input of 100 degrees Fahrenheit to Celsius")(newline)
-(display (f-to-c 100))(newline)
-(write "If you wish to do any custom conversions, please execute the following via CLI;")(newline)
-(write "(c-to-f temp) where temp is the temperature in Celsius you wish to convert")(newline)
-(write "(f-to-c temp) where temp is the temperature in Fahrenheit you wish to convert")(newline)
-```
+## Adding more Servers to Server Manager
 
-Below you can see what it looks like when you open guile while asking it to load the file(which I called conversion.scm) with the **-l** option.
+The File Server mentioned here is what I'm using to manage shares and I want to add it to the DC Server Manager so it's integrated into the domain controller.  I grabbed the File Server IP address and assumed initially that would be enough.  The editing of the network settings was actually something that took me a long time to figure out when troubleshooting both this step as well as connecting other clients to my local domain.  In my home setup my primary DNS server on my router does not point to my Domain Controller at all, so for local setups trying to join the Domain will usually result in an error.  It wasn't until I manually edited the network settings of these devices to point to my Domain Controller as their primary DNS server that I was able to get them to recognize the domain, which makes sense as this domain at the moment is just local, not a global domain.
 
-![](vscode.png)
+After figuring this out on the client side, I was able to quickly edit it on the File Server.  Back on the Domain Controller, clicking Manage and Add Server made it easy to find the File Server and add it.  Now it's been added to this Domain, and I could now Assign Roles and Features to it from this Server Manager if I chose to do so in the future.
 
-It prints all my write messages, then the GNU Guile copyright and them puts you in the guile terminal where you can clal the functions referenced above.  I did 4 just to show the syntax.
+## Creating a Local Network Share
 
-One thing I noticed while testing the code in other platforms is that when checking it in DrRacket, anything I processed and displayed before the terminal appears isn't rounded down to a decimal like it should be.  When calling the function with the same values again, it outputted as intended, so I'm not sure what part of DrRacket causes this behavior to happen before the terminal appears.  I looked around briefly in the settings to see but nothing jumped out right away, but just noting it since it's something that came up during testing.
+This involved steps in both the Domain Controller and the File Server.  On the File Server I added 300gb of storage to it from a regular hard drive for the purpose of using it for Network Share storage, and create a new Volume (L:) with it under File and Storage Services.  Back on the Domain Controller, under File and Storage Services clicking Shares and right click gives a "New Share" option.  
 
-![](drracket.png)
+There are options for SMB and NFS here, depending on who the shares are for.  I'm testing on Windows for now so I am going with SMB shares.
 
+The next screen has us picking which server the share will be hosted on, and which volume.  I wanted these separate from the OS files, hence why the new Volume L: was created.  Note that as seen here, we didn't need to choose a full volume.  There is an option for a specific path, so if the main OS volume had enough capacity we could designate a specific folder path on there that would be available to be served as a Network Share.  Any sort of backups done on the OS Volume would then also effect these shares.
+
+After creating this share, the last step so that local domain users could mount this network share is create the Shared Folder as an Object in Active Directory.  To do this under Tools we go to Active Directory Users and Computers, and Right-Click our domain name.  Under new we should see an option for Shared Folder.  Just give it a name and give it the network path for the share and it's created.  Manually mounting this same path on the user side will give them access to a network share that other users had access to as well, making it easy to share files with colleagues.  
+
+## Syncing with Azure Active
